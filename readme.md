@@ -26,7 +26,7 @@ Let's compare the results of the model Inception V3 if we use TensorFlowSharp (c
 | ...                | ...                | ...                 |
 
 Well, it turn out they both tell us it's an egyptian cat.
-Further work is needed to find the reasons there is a discrepancy in the results.
+Further work is needed to find the reasons why there is a discrepancy in the results.
 
 # Copyright and license
 Code released under the MIT license.
