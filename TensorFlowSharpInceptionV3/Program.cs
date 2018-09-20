@@ -39,7 +39,7 @@ namespace TensorFlowSharpInceptionV3
 							{
 								builder.Append(pixel + " ");
 							}
-							builder.Append("\n");
+							builder.Append(Environment.NewLine);
 						}
 					}
 					File.WriteAllText(projectFolder + @"results\tensorflowsharp.txt", builder.ToString());
