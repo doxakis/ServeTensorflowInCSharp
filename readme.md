@@ -28,5 +28,9 @@ Let's compare the results of the model Inception V3 if we use TensorFlowSharp (c
 Well, it turn out they both tell us it's an egyptian cat.
 Further work is needed to find the reasons why there is a discrepancy in the results.
 
+## UPDATE 19th September, 2018:
+
+Currently, the operation DecodeJpeg does not return exactly the same result. If we feed directly the same pixels to the c# version, the output is really similar to the python version.
+
 # Copyright and license
 Code released under the MIT license.
